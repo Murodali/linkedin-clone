@@ -5,19 +5,22 @@ import { FiberManualRecordRounded } from '@material-ui/icons';
 function Widgets() {
 
 
-    const newsArticles =(heading,subtitle) => {
+
+
+
+    const newsArticles = (heading, subtitle) => {
         return (
             <div className="widgets_article">
-            <div className="widgets_articles_left">
-                <FiberManualRecordRounded></FiberManualRecordRounded>
-             
-            </div>
-            <div className="widgets_articles_right">
-            <h4>{heading}</h4>
-                <p>{subtitle}</p>
+                <div className="widgets_articles_left">
+                    <FiberManualRecordRounded></FiberManualRecordRounded>
 
+                </div>
+                <div className="widgets_articles_right">
+                    <h4>{heading}</h4>
+                    <p>{subtitle}</p>
+
+                </div>
             </div>
-        </div>
         )
 
     }
@@ -29,13 +32,13 @@ function Widgets() {
                 <InfoIcon></InfoIcon>
             </div>
 
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
-            {newsArticles("Murodali is back","Top News")}
+            {newsArticles(" Sample News", "Top News")}
+            {newsArticles("Sample News", "Top News")}
+            {newsArticles(" Sample News", "Top News")}
+            {newsArticles("Sample News", "Top News")}
+            {newsArticles(" Sample News", "Top News")}
+            {newsArticles("Sample News", "Top News")}
+
         </div>
     )
 }

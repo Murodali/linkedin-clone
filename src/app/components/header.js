@@ -12,10 +12,11 @@ import { auth } from '../../firebase';
 
 
 
+
+
 const Header = () => {
 
-
-
+    const user = useSelector(selectUser)
     const dispatch = useDispatch()
 
     const logoutApp = () => {
@@ -44,7 +45,7 @@ const Header = () => {
                 <HeaderOptions Icon={BusinessCenterIcon} title="Jobs"></HeaderOptions>
                 <HeaderOptions Icon={ChatIcon} title="Messaging"></HeaderOptions>
                 <HeaderOptions Icon={NotificationsIcon} title="Notfications"></HeaderOptions>
-                <HeaderOptions avatar={true} title="me" onClick={logoutApp}></HeaderOptions>
+                <HeaderOptions avatar ={true} title="Sign Out" onClick={logoutApp}></HeaderOptions>
            
             </div>
             

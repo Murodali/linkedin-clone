@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import { selectUser } from '../../features/counter/userSlice'
 
 
-const HeaderOptions = ({avatar,Icon,title, onClick }) => {
+const HeaderOptions = ({avatar,Icon,title, onClick,out }) => {
 
     const user = useSelector(selectUser)
 
@@ -29,6 +29,7 @@ const HeaderOptions = ({avatar,Icon,title, onClick }) => {
 
             
             <h3>{title}</h3>
+            <h3>{ user?out : ""}</h3>
         
         </div>
     )

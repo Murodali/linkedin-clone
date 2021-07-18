@@ -8,6 +8,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import Login from './app/components/Login';
 import { auth } from './firebase';
 import {useEffect} from 'react';
+import Widgets from './app/components/Widgets';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <div className="app_body">
         <Sidebar></Sidebar>
         <Feed></Feed>
+        <Widgets></Widgets>
       
       </div>
     ) }

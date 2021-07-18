@@ -314,3 +314,55 @@ border-radius: 10px;
 .login > p > span:hover{
   cursor: pointer;
 }
+
+.widgets{
+  top: 80px;
+  position: sticky;
+  flex: 0.2;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid whitesmoke;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+
+.widgets_header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.widgets_header > h2{
+  font-size: 16px;
+  font-weight: 400;
+}
+.widgets_article{
+  padding: 10px;
+  display: flex;
+}
+.widgets_article:hover{
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.widgets_articles_left{
+  margin-right: 5px;
+  color: #0177b7;
+}
+
+.widgets_articles_left > .MuiSvgIcon-root {
+  font-size: 15px;
+}
+.widgets_articles_right{
+  flex: 1;
+
+}
+.widgets_articles_right > h4{
+  font-size: 14px;
+
+}
+.widgets_articles_right > p{
+  color: grey;
+  font-size: 12px;
+}

@@ -278,19 +278,19 @@ border-radius: 10px;
   margin-left: 10px;
 }
 
-.login >form{
+.login .sign_inForm >form{
   display: flex;
   flex-direction: column;
 }
 
-.login >form >input{
+.login .sign_inForm >form >input{
   margin: 10px 0;
   font-size: 18px;
   padding: 10px;
   border-radius: 5px;
 }
 
-.login > form > button{
+.login .sign_inForm > form > button{
   padding: 10px;
   font-size: 18px;
   color: white;
@@ -298,22 +298,53 @@ border-radius: 10px;
   border-radius: 5px;
   
 }
-.login > form > button:hover{
+.login .sign_inForm > form > button:hover{
   cursor: pointer;
 }
 
-.login > p{
+.login .sign_inForm > form> p{
   margin-top: 10px;
   text-align: center;
 }
 
-.login > p >span{
+.login .sign_inForm > form>  p >span{
   color: #0074b1;
 }
 
-.login > p > span:hover{
+.login .sign_inForm > form> p > span:hover{
   cursor: pointer;
 }
+
+
+.login .register_form >form{
+  display: flex;
+  flex-direction: column;
+}
+
+.login .register_form >form >input{
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.login .register_form > form > button{
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  background-color: #0074b1;
+  border-radius: 5px;
+  
+}
+.login .register_form > form > button:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
 
 .widgets{
   top: 80px;
